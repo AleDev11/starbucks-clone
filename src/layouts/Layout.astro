@@ -1,5 +1,5 @@
 ---
-import Analytics from "@vercel/analytics/astro";
+import SpeedInsights from "@vercel/speed-insights/astro";
 import "@/styles/global.css";
 
 const { title = "Starbucks | Clone" } = Astro.props;
@@ -14,7 +14,7 @@ const { title = "Starbucks | Clone" } = Astro.props;
     <title>{title}</title>
   </head>
   <body>
-    <Analytics />
     <slot />
+    <SpeedInsights />
   </body>
 </html>
