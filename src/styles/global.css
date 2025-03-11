@@ -5,7 +5,7 @@
     --color-primary: #006241;
 }
 
-@layer {
+/* @layer {
     ::-webkit-scrollbar {
         width: 8px;
     }
@@ -22,4 +22,4 @@
     ::-webkit-scrollbar-thumb:hover {
         background-color: var(--color-primary);
     }
-}
+} */
